@@ -1,6 +1,6 @@
 <div id="top"></div>
 <div align="center">
-  <a href="https://github.com/_my_username_/_repository_name_">
+  <a href="https://github.com/Gazentia/frontend-webpack-boilerplate">
 <img src="./readme-assets/banner.jpg" align="center"/>
   </a>
   <br/>
