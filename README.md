@@ -10,7 +10,7 @@
     ·
     <a href="https://github.com/Gazentia/frontend-webpack-boilerplate/issues">Report Bug</a>
     ·
-    <a href="https://github.com/_my_username_/_repository_name_/issues">Request Feature</a>
+    <a href="https://github.com/Gazentia/frontend-webpack-boilerplate/issues">Request Feature</a>
   </p>
 </div>
 
@@ -78,14 +78,9 @@ The list of major Webpack plugins and loaders that i have used for building this
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 <div id="preparing"></div>
 
-### Preparing
-
-Downloading and installing [Node.js](https://nodejs.org/en/) first.</br>
+<b>Downloading and installing [Node.js](https://nodejs.org/en/) first.</b></br>
 
 <div id="install"></div>
 
