@@ -159,8 +159,6 @@ Project (In src/ folder)
 
 - Containes all any image, icon, svg files.
 - `favicon.png` : a favicon file.
-- If you want to use inline style for defining your image (such as `background-image` property) in any tags you must use `<%= require('_your_image_path_')%>` .
-    - <b>Example</b>
 
 ### `FONTS` FOLDER
 
