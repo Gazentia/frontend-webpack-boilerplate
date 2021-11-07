@@ -159,6 +159,7 @@ Project (In src/ folder)
 
 - Containes all any image, icon, svg files.
 - `favicon.png` : a favicon file.
+- If you want to refer svg file with `src` you can do it by using `<%=require('_your_svg_path_')%>` such as `<img src="<%=require('./assets/images/logo.svg')%>" alt="" />`
 
 ### `FONTS` FOLDER
 

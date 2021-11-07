@@ -90,14 +90,11 @@ module.exports = {
     ...HtmlWpPluginLists,
     new FaviconsWebpackPlugin({
       logo: './src/assets/images/favicon.png',
+      prefix: 'assets/favicons/',
       outputPath: '/assets/favicons/',
+      publicPath: './',
       inject: (htmlPlugin) => {
         return /\.(html)$/g.test(path.basename(htmlPlugin.options.filename));
-      },
-      favicons: {
-        appName: 'WebPage',
-        developerName: 'Gazentia',
-        start_url: '/index.html',
       },
     }),
     new MiniCssExtractPlugin({
