@@ -2,6 +2,7 @@ require('dotenv').config();
 const path = require('path');
 const WebpackFn = require('./webpack.fn');
 const HtmlWpPluginLists = WebpackFn.htmlWpPlugin();
+
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
@@ -24,8 +25,8 @@ module.exports = {
           {
             loader: MiniCssExtractPlugin.loader,
             options: {
-              publicPath: "../../"
-            }
+              publicPath: '../../',
+            },
           },
           {
             loader: 'css-loader',
@@ -88,14 +89,11 @@ module.exports = {
     ...HtmlWpPluginLists,
     new FaviconsWebpackPlugin({
       logo: './src/assets/images/favicon.png',
+      prefix: 'assets/favicons/',
       outputPath: '/assets/favicons/',
+      publicPath: './',
       inject: (htmlPlugin) => {
         return /\.(html)$/g.test(path.basename(htmlPlugin.options.filename));
-      },
-      favicons: {
-        appName: 'Sample Page',
-        developerName: 'Gazentia',
-        start_url: '/index.html',
       },
     }),
     new MiniCssExtractPlugin({
@@ -107,7 +105,7 @@ module.exports = {
     /*  publicPath: path.resolve(__dirname, 'src', 'assets'), */
     /* contentBase: [path.join(__dirname)], */
     open: true,
-    host: process.env.WP_HOST || "localhost",
+    host: process.env.WP_HOST || 'localhost',
     port: process.env.WP_PORT || 8080,
   },
 };

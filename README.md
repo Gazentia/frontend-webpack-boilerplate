@@ -159,6 +159,16 @@ Project (In src/ folder)
 
 - Containes all any image, icon, svg files.
 - `favicon.png` : a favicon file.
+- If you want to refer asset file in your page. you can do it by using `<%=require('_your_svg_path_')%>`
+  - <b>example</b>
+  - Image tag: 
+    ```
+    <img src="<%=require('_your_asset_path_')%>" alt="" />
+    ```
+  - url() inine style:
+    ```
+    baclground-image: url(<%=require('_your_asset_path_')%>)"
+    ```
 
 ### `FONTS` FOLDER
 

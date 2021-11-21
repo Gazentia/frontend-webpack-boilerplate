@@ -40,7 +40,6 @@
     "core-js": "^3.6.5",
     "dotenv": "^10.0.0",
     "hamburgers": "^1.1.3",
-    "owl.carousel": "^2.3.4",
     "regenerator-runtime": "^0.13.5",
     "smoothscroll-polyfill": "^0.4.4"
   }
