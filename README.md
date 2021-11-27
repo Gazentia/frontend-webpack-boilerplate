@@ -191,6 +191,12 @@ You can build your project with development mode:
 npm run build:dev
 ```
 
+## Redirects (Cloudflare Pages)
+
+To use redirects on <a href="https://pages.cloudflare.com/">Cloudflare Pages</a>, declare your redirects in a `_redirects` plain text file in `src` folder.
+<a href="https://developers.cloudflare.com/pages/platform/redirects">[Read More]</a>
+
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Gazentia
